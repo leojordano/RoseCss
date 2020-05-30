@@ -1,0 +1,15 @@
+{
+  "name": "rocecss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "author": "Leonardo Jordano <leonardojordano1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rollup-plugin-css-only": "^2.0.0"
+  }
+}

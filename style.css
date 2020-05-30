@@ -1,0 +1,36 @@
+:root {
+    --bg: coral;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('https://fonts.googleapis.com/css2?family=Roboto');
+}
+
+body[reset] {
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body[reset] * {
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    padding:0px;
+    margin:0px;
+}
+
+[bg-red] {
+    background-color: red;
+}
+
+[bg-green] {
+    background-color: green;
+}
+
+[bg-blue] {
+    background-color: blue;
+}
+
+
