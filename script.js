@@ -33,13 +33,14 @@ const fa = document.querySelectorAll('[fa]')
 if(flex.length > 0) {
     flex.forEach(item => {
         item.style.display = 'flex'
+        item.style.flexWarp = 'wrap'
         switch(item.attributes.flex.value) {
             case 'column':
                 return item.style.flexDirection = 'column'
             case 'row':
                 return item.style.flexDirection = 'row'
             case 'row-reverse':
-                return item.style.flexDirection = 'row-revers'
+                return item.style.flexDirection = 'row-reverse'
             case 'column-reverse':
                 return item.style.flexDirection = 'column-reverse'
             default:
@@ -69,3 +70,40 @@ if(center.length > 0) {
 
     })
 }
+
+// COLOR TEXT
+const color = document.querySelectorAll('[color]')
+if(color.length > 0) {
+    color.forEach(item => {
+        const value = item.attributes.color.value
+        return item.style.color = value
+    })
+}
+
+// FONT SIZE
+const fontSize = document.querySelectorAll('[fontSize]')
+if(fontSize.length > 0) {
+    color.forEach(item => {
+        const value = item.attributes.fontSize.value
+        return item.style.fontSize = value
+    })
+}
+// MARGIN
+const margin = document.querySelectorAll('[m]')
+if(margin.length > 0) {
+    margin.forEach(item => {
+        const value = item.attributes.m.value
+        return item.style.margin = value
+    })
+}
+
+// PADDING
+ const padd = document.querySelectorAll('[p]')
+if(padd.length > 0) {
+    padd.forEach(item => {
+        const value = item.attributes.p.value
+        return item.style.padding = value
+    })
+}
+
+// COMPONENTS

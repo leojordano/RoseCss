@@ -1,7 +1,7 @@
 {
   "name": "rocecss",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.8",
+  "description": "Little CSS on Style File",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -1,5 +1,5 @@
 :root {
-    --bg: coral;
+    --bg: #ff4754;
 }
 @font-face {
     font-family: 'Roboto';
@@ -17,8 +17,11 @@ body[reset] * {
     vertical-align:baseline;
     list-style:none;
     border:0;
-    padding:0px;
-    margin:0px;
+}
+
+body[reset] * a {
+    text-decoration: none;
+    color: black;
 }
 
 [bg-red] {
@@ -32,5 +35,10 @@ body[reset] * {
 [bg-blue] {
     background-color: blue;
 }
-
+[bg-salmon] {
+    background-color: salmon;
+}
+[bg-brown] {
+    background-color: brown;
+}
 
